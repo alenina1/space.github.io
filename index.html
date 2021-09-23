@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>osipyan_web</title>
+</head>
+
+<body>
+    <header>
+        <div class="header_solo">
+        <div id="logo"></div>
+        <div id="name">
+            <h1 class="text_header">august slipped away into a moment in time</h1>
+        </div>
+        </div>
+    </header>
+
+    <nav class="menu">
+            <ul>
+                <li><a href=#task1>links</a></li>
+                <li><a href=#table>table</a></li>
+                <li><a href=#form>form</a></li>
+            </ul>
+    </nav>
+ 
+
+        <h2 id="task1">links:</h2>
+        <a id="comeback"></a>
+    
+    <ol> 
+        <li><a href="http://example.com">an absolute hyperlink to the home page of example.com </a></li>
+        <li><a href="https://example.com">an absolute hyperlink to the home page of example.com but https </a></li>
+        <li><a href="ftp://google.com/fallout/file1.txt">a link to a file on an FTP server without authorization</a></li>
+        <li><a href="ftp://test:password@admin.ru/data/file2.txt">a link to a file on an FTP server with authorization</a></li>
+        <li><a href="taylor.html#lyrics" target="_blank">link to taylor swift song lyrics which is on the header</a></li>  
+        <li><a href="#“twice”">link to the part about m-83</a></li>
+        <li><a href="https://www.onlinestore.ru?product=t-shitt&color=white" target="_blank">link with two parameters in the url</a></li>
+        <li><a href="#task1" title="task">links</a></li>
+        <li><a href="#form" title="form">form</a></li>
+        <li><a>link without "href"</a></li>
+        <li><a href="">link with empty "href"</a></li>
+        <li><a href="http://example.com" rel = "nofollow">the link that browsers are not allowed to follow</a></li>
+        <li><a href="http://example.com" rel = "noindex">not allowed for indexing by browsers</a></li>
+        <li><p><a id=“m-83”>m-83</a> is a French electronic music project formed in Antibes, Alpes-Maritimes in 1999 and currently based in Los Angeles, California. The band's primary member is vocalist, songwriter, multi-instrumentalist and record producer Anthony Gonzalez.The band was initially formed as a duo also with Nicolas Fromageau; it has released eight albums and two soundtracks, including the Grammy Award-nominated Hurry Up, We're Dreaming. You can listen to it <a href="https://open.spotify.com/album/6EB14IXV5oyOiItGBv7mtG?si=y7KIA_uwQ-C5Allsu6lqIw&dl_branch=1"> here </a> </p></li>
+        <li><a href="https://www.youtube.com/watch?v=dX3k_QDnzHE" target="_blank"><img src="../images/album.png" width="500" height="500" alt="cover"></a></li>
+        <li>you can listen to M-83 if you click in the center or read about galaxy M-83 if you click in the upper left corner
+        <br>
+	        <img src = "../images/galaxy.png" usemap = "#figures" alt = "wikipedia galaxy or spotify artist">
+            <map name = "figures">
+                <area shape = "rect" coords = "0,0,110,80" href = "https://en.wikipedia.org/wiki/Messier_83" alt = "square">
+                <area shape = "circle" coords = "360,190,150" href = "https://open.spotify.com/artist/63MQldklfxkjYDoUE4Tppz?si=I_YR6CscTOiokUaecOa1-Q&dl_branch=1" alt = "circle">
+            </map>
+        </li>
+
+        <li><a href="index.html">relative link</a></li>
+        <li><a href="about/about.html">relative link in "about" directiry</a></li>
+        <li><a href="../index.html">relative to the page in the directory one level higher than the current one</a></li>
+        <li><a href="../../index.html">relative to the page in the directory two levels higher</a></li>
+        <li><a href="/">link on main page</a></li>
+        <li><a href="/srr.html">inside link</a></li>
+    </ol>
+
+<h1 id="table">table</h1>
+		<table>
+    		<tr>
+        <th>==galaxies==</th>
+        <th>==singers==</th>
+        <th>==nebulas==</th>
+			</tr>
+			<tr>
+        <td><a href="https://en.wikipedia.org/wiki/Pinwheel_Galaxy">pinwheel</a></td>
+        <td><a href="https://open.spotify.com/artist/5SmwbD3wqrybVclRKTbr1M?si=UT4BcnycT2--jOryD5yvcA&dl_branch=1">space</a></td>
+        <td><a href="https://en.wikipedia.org/wiki/Triangulum_Galaxy">triangulumn</a></td>
+			</tr>
+			<tr>
+        <td colspan="2"><a href="https://en.wikipedia.org/wiki/Milky_Way">milky</a><a href="https://open.spotify.com/playlist/3RvJkx7yUI6P8WOicAVeBs?si=e4353eb7c8454812"> way </a></td>
+        <td rowspan="2"><a href="https://en.wikipedia.org/wiki/Eskimo_Nebula">NGC 2392</a></td>
+			</tr>
+			<tr>
+        <td><a href="https://en.wikipedia.org/wiki/NGC_4414">NGC 4414</a></td>
+        <td><a href="https://open.spotify.com/artist/4gzpq5DPGxSnKTe4SA8HAU?si=cAKzpmKaRmCVSQayTHHj1w&dl_branch=1">coldplay</a></td>
+			</tr>
+			<tr>
+        <td><a href="https://en.wikipedia.org/wiki/Hoag%27s_Object">hoags</a></td>
+        <td><a href="https://open.spotify.com/artist/0oSGxfWSnnOXhD2fKuz2Gy?si=3MO1o2_bQFG9XO8qzXl8Yw&dl_branch=1">david bowie</a></td>
+        <td><a href="https://en.wikipedia.org/wiki/Carina_Nebula">carina</a></td>
+			</tr>
+			<tr>
+        <td colspan="3"><a href="https://en.wikipedia.org/wiki/Centaurus_A/M83_Group">m-</a><a href="https://open.spotify.com/artist/63MQldklfxkjYDoUE4Tppz?si=GvF9E9wuRAyUX36W4iBDsQ&dl_branch=1">83</a></td>
+    </tr>
+</table>    
+<h1 id="form">form</h1>
+<form action="/" method="POST">
+
+    <label>
+        name<br>
+        <input name="field-name-1" value="name">
+    </label><br>
+
+    <label>
+        email:<br>
+        <input name="field-email" value="test@gmail.com" type="email">
+    </label><br>
+
+    <label>
+        birth date<br>
+        <input name="field-date" value="1111-11-11" type="date">
+    </label><br>
+
+    sex:<br>
+    <label><input type="radio" checked="checked" name="radio-group-1" value="men">
+        men</label><br>
+    <label><input type="radio" name="radio-group-1" value="female">
+        female</label><br>
+    <label><input type="radio" name="radio-group-1" value="other">
+        other</label><br>
+
+    favourite member in twice:<br>
+    <label><input type="radio" checked="checked" name="radio-group-1" value="girl1">
+        nayeon</label>
+    <label><input type="radio" checked="checked" name="radio-group-1" value="girl2">
+        jeongyeon</label>
+    <label><input type="radio" checked="checked" name="radio-group-1" value="girl3">
+        jihyo</label>
+    <label><input type="radio" name="radio-group-1" value="girl4">
+        momo</label>
+    <label><input type="radio" checked="checked" name="radio-group-1" value="girl5">
+        sana</label>
+    <label><input type="radio" checked="checked" name="radio-group-1" value="girl6">
+        mina</label>
+    <label><input type="radio" checked="checked" name="radio-group-1" value="girl7">
+        dahyun</label>
+    <label><input type="radio" checked="checked" name="radio-group-1" value="girl8">
+        chaeyoung</label>
+    <label><input type="radio" checked="checked" name="radio-group-1" value="girl9">
+        tzuyu</label><br>
+
+
+    <label>
+       	favourite taylor swift song
+        <br>
+        <select name="field-name-4[]" multiple="multiple">
+            <option value="song1" selected="selected">august</option>
+            <option value="song2">renegade</option>
+            <option value="song3">style</option>
+            <option value="song3">champagne problems</option>
+            <option value="song3">evermore</option>
+        </select>
+    </label><br>
+
+    <label>
+        write about your favourite artist:
+        <br>
+        <textarea name="field-name-2" style="margin: 0px; height: 35px; width: 187px;">write something here</textarea>
+    </label><br>
+
+    <label><input type="checkbox" checked="checked" name="check-1">
+        i agree with the conditions (a)</label><br>
+
+    <input type="submit" value="send">
+</form>
+<br/>
+<footer>osipyan alina 2021</footer>
+</body>
+</html>
