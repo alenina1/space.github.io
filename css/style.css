@@ -1,0 +1,152 @@
+
+header
+{
+    display:  block;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(41,42,52, 0.733);
+    border: 5px groove  rgba(87, 86, 86, 0.596);
+
+}
+.header_solo
+{
+    width: 100%;
+    height: 130px;
+    padding: 0 0 0 0;
+    max-width:  960px;
+    margin: 0 auto 0 auto;
+}
+.text_header
+{
+    font-family: 'Space Mono', monospace;
+    color:rgba(20, 18, 18, 0.616);
+    font-size: 30px;
+    font-weight: 600;
+    /*text-align: center;*/
+}
+
+#logo
+{
+    margin-top: 23px;
+    width: 150px;
+    height: 100px;
+    background: url(../images/logotip.gif) no-repeat scroll center ;
+    float: left;
+	margin-right: 50px;
+}
+
+
+#name {
+    padding:  0 0 0 0;
+    float:  left;
+}
+
+#name h1 {
+    height:  100%;
+    line-height: 60px;
+    margin-top: 25px;
+}
+
+.menu{
+    margin-top: 2em;
+    list-style: none;
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Space Mono', monospace;
+    letter-spacing: 2px;
+    position: relative;
+    padding-bottom: 15px;
+    margin: 0 20px 0 16px;
+    font-size: 20px;
+    color: rgb(36, 31, 31);
+
+}
+
+
+body{
+    text-align: center;
+    margin-bottom: 0;
+    background: rgb(80, 74, 75);
+    font-family: 'Space Mono', monospace;;
+    font-size: 14px;
+    font-weight: 200;
+    padding: 2px 1em 0 1em;
+}
+
+
+a
+{
+    color: rgba(41,42,52, 0.933);
+
+}
+nav {
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav ul {
+    display: inline-block;
+    
+}
+
+nav li {
+    float:left;
+}
+
+ul{
+    list-style: none;
+    text-align:left;
+}
+
+ol{
+    display:inline-table;
+}
+
+li{
+    margin-bottom: 4px;
+    text-align:left;
+}
+
+
+table{
+    font-family: 'Space Mono', monospace;;
+    text-align: center;
+    display: inline-block;
+    border-spacing: 4px;
+    width: 50%;
+    border:5px;
+	margin-left: 480px;
+}
+
+td{
+    width:150px;
+    height:50px;
+}
+
+tr:nth-child(odd)
+{
+    background: rgb(100, 88, 88);
+    padding: 4px;
+}
+
+tr:nth-child(even)
+{
+    background: gray;
+    padding: 4px;
+}
+footer{
+    height: 30px;
+    width:  100%;
+    background-color: rgba(41, 42, 52, 0.226);
+    border: 5px groove  rgba(87, 86, 86, 0.281);
+}
