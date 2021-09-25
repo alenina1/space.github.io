@@ -1,10 +1,7 @@
-
 header
 {
-    display:  block;
+    width: 100%;
     height: 150px;
-    margin-left: auto;
-    margin-right: auto;
     background-color: rgba(41,42,52, 0.733);
     border: 5px groove  rgba(87, 86, 86, 0.596);
 
@@ -37,33 +34,20 @@ header
 }
 
 
-#name 
-{
+#name {
     padding:  0 0 0 0;
     float:  left;
 }
 
-#name h1
-{
+#name h1 {
     height:  100%;
     line-height: 60px;
     margin-top: 25px;
 }
 
-.menu
-{
-    margin-top: 2em;
-    list-style: none;
-    text-align: center;
-}
 
-.menu li 
-{
-    display: inline-block;
-}
 
-.menu a
-{
+.menu a {
     display: inline-block;
     text-decoration: none;
     font-family: 'Space Mono', monospace;
@@ -77,75 +61,60 @@ header
 }
 
 
-body
-{
+body{
     text-align: center;
     margin-bottom: 0;
     background: rgb(80, 74, 75);
-    font-family: 'Space Mono', monospace;
+    font-family: 'Space Mono', monospace;;
     font-size: 14px;
     font-weight: 200;
     padding: 2px 1em 0 1em;
 }
+
 
 a
 {
     color: rgba(41,42,52, 0.933);
 
 }
-nav 
-{
+nav {
     width: 960px;
     margin: 0 auto;
     text-align: center;
 }
 
-nav ul 
-{
+nav ul {
     display: inline-block;
     
 }
 
-nav li
-{
+nav li {
     float:left;
 }
 
-ul
-{
+ul{
     list-style: none;
     text-align:left;
 }
 
-ol
-{
+ol{
     display:inline-table;
 }
 
-li
-{
+li{
     margin-bottom: 4px;
     text-align:left;
 }
-
-
-table
-{
-    font-family: 'Space Mono', monospace;
-    text-align: center;
-    display: inline-block;
-    border-spacing: 4px;
-    width: 50%;
-    border:5px;
-	margin-left: 480px;
+table{
+    width: 100%;
+    font-family: 'Space Mono', monospace;;
 }
-
-td
-{
-    width:150px;
+table,th,td{
+    border: 1px solid rgb(43, 42, 42);
+    border-color: black;
+    text-align: center;
     height:50px;
 }
-
 tr:nth-child(odd)
 {
     background: rgb(100, 88, 88);
@@ -157,7 +126,6 @@ tr:nth-child(even)
     background: gray;
     padding: 4px;
 }
-
 footer
 {
     height: 30px;
@@ -165,3 +133,13 @@ footer
     background-color: rgba(41, 42, 52, 0.226);
     border: 5px groove  rgba(87, 86, 86, 0.281);
 }
+.equal{
+    padding: 3px;
+    max-width: 960px;
+    margin: 10px auto;
+    height: auto;
+    background-color: rgb(136, 136, 136);
+}
+
+
+
